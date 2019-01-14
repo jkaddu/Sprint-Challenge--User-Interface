@@ -74,7 +74,7 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -143,4 +143,108 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* header */
+.nav-bar nav {
+    margin: 20px 0 40px;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+}
+.nav-bar a {
+    text-align: center;
+    flex: 1;
+}
+.nav-bar .link {
+    padding-top: 27px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+header .banner {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* box background */
+.middle-content .boxes #boxed {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
+
+/* about page */
+.top-content .text-container {
+    width: 100%;
+    flex: 1;
+}
+.strategy-content {
+    display: flex;
+    justify-content: space-between;
+}
+.about-box {
+    width: 400px;
+    padding-top: 15px;
+    margin: 20px 10px 0;
+    border-bottom: 1px dashed black; 
+}
+.about-box h2 {
+    padding-top: 15px;
+}
+.about-box p {
+    padding-bottom: 15px;
+}
+.about-box button {
+    background: white;
+    font-size: 16px;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.about-box button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.bottom-content .text-container h2 {
+    margin-top: 30px;
 }
