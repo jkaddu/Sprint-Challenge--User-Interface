@@ -211,8 +211,9 @@ header .banner {
 }
 
 /* about page */
-.top-content .text-container {
+.top-content  {
     width: 100%;
+    display: flex;
 }
 .strategy-content {
     display: flex;
