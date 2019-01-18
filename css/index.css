@@ -178,6 +178,18 @@ header .banner {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 .box1 {
     background: teal;
@@ -211,9 +223,11 @@ header .banner {
 }
 
 /* about page */
-.top-content  {
-    width: 100%;
+.top-content .text-container1 {
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 .strategy-content {
     display: flex;
